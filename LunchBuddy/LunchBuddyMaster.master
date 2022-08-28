@@ -1,0 +1,146 @@
+﻿<%@ Master Language="VB" CodeFile="LunchBuddyMaster.master.vb" Inherits="LunchBuddyMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Lunch Buddy master  page</title>
+    <link href="css/StyleSheet.css" rel="stylesheet" />
+
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+
+        .auto-style2 {
+            color: #E4F132;
+        }
+
+        .head_logo {
+            font-family: "Bauhaus 93";
+            font-size: 75px;
+            font-weight: lighter;
+            font-style: normal;
+            font-variant: inherit;
+            text-transform: capitalize;
+            color: #003300;
+            overflow: auto;
+            display: block;
+            text-align: left;
+        }
+    
+                       
+        }
+
+    
+
+  
+
+    
+
+        .auto-style3 {
+            left: -84px;
+            bottom: 2px;
+            height: 38px;
+        }
+
+    
+
+  
+
+    
+
+        .auto-style5 {
+            left: 64px;
+            top: 63px;
+            width: 572px;
+            height: 50px;
+            font-family: "Harrington";
+            font-size: 50px;
+            color: #0a3409;
+            position: absolute;
+            right: -23px;
+            bottom: 407px;
+        }
+
+    
+
+  
+
+    
+
+        </style>
+    </head>
+<body>
+    <form id="form1" runat="server">
+    <div aria-atomic="True">
+        <br />
+        <br />
+        <br />
+       <header class="auto-style5">
+
+           Lunch Buddy
+
+
+           KSU </header>
+               <!--- <li>
+                    <asp:Label ID="lblWelcome" runat="server"></asp:Label>
+                    </a></li>--->
+
+
+        &nbsp;<main class="main"><ul>
+        <li><a href="default.aspx">HOME</a></li>
+            <li><a href="AboutUs.aspx">About Us</a></li>
+       <li>
+                <asp:LoginStatus ID="LoginStatus1" runat="server" />
+            </li>
+          <li><a href="/MembersPages/ProfileSignup.aspx">Create Profile</a> </li> 
+        <li><a href="/MembersPages/Daily.aspx">Daily</a></li>
+        <li><a href="/MembersPages/MemberBio.aspx">Member Bio</a> </li>
+        <li><a href="/MembersPages/NewPost.aspx">New Post</a></li>
+        <li><a href="/MembersPages/Postboard.aspx">Postboard</a> </li>
+        <li><a href="Saftey.aspx">Safety</a></li>
+          <li><a href="SiteMap.aspx">SiteMap</a></li>
+           
+            
+      </ul>
+
+  
+        <br />
+        <br />
+
+  
+</main>
+
+                    
+
+     <div class =" body1">  
+     <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        <p style="line-height: 1px; padding: 1px; margin: 5px; font-family: 'Courier New'">
+          * main*
+            </p>
+     
+        
+     </asp:ContentPlaceHolder>
+     </div>
+
+
+        
+
+
+           
+    
+        </div>
+        
+        <div class="auto-style3">
+        <footer style="text-align: center">
+            <br />
+            <br />
+            <a href="https://www.kennesaw.edu/" class="auto-style2">KSU</a><span class="auto-style2"> | Copyright @ TeamGold 2019 Capstone Project | </span> <a href="https://coles.kennesaw.edu/" class="auto-style2">COLES</a>
+            <br />
+            <br />
+&nbsp;<a href="/AdminPages/Admin.aspx"><asp:Label ID="lblAdmin" runat="server"></asp:Label></a>&nbsp;</footer>
+    </div>
+    </form>
+</body>
+</html>

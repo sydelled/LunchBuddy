@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="default.aspx" title="Homepage"  description="Default Page">
+    <siteMapNode url="Login.aspx" title="Login"  description="Login Page" />
+    <siteMapNode url="SignUp.aspx" title="SignUp Page"  description="SignUp Page" />
+    <siteMapNode url="/MembersPages/ProfileSignUp.aspx" title="Profile SignUp"  description="Sign up for a profile" />
+    <siteMapNode url="/MembersPages/Daily.aspx" title="Restuarant Search"  description="Search for Restuarants" />
+    <siteMapNode url="/MembersPages/MemberBio.aspx" title="Member Bio"  description="Member Biography" />
+    <siteMapNode url="/MembersPages/NewPost.aspx" title="New Post"  description="Add a new post to message board" />
+    <siteMapNode url="/MembersPages/Postboard.aspx" title="Postboard"  description="Post on message board" />
+    <siteMapNode url="AboutUs.aspx" title="AboutUs"  description="About Us" />
+    <siteMapNode url="Saftey.aspx" title="Safety"  description="Some safety tips" />
+  </siteMapNode>
+</siteMap>
