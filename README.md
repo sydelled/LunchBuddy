@@ -1,6 +1,6 @@
 
 # LunchBuddy
-A social app where you can find a buddy to join you for lunch. This project was developed for our captstone course at Kennesaw University with a team of five named: 'Team Gold.' 
+A social app where you can find a buddy to join you for lunch. This project was developed for our captstone course at Kennesaw University with a team of four named: 'Team Gold.' 
 
 ## Business Proposal
 Lunch Buddy KSU is a website that will match students with lunch dates. The website will be exclusive to students of Kennesaw State University. Users will have an option to browse through messages to decide who they would like to have lunch with. Users will sign up, create their profile, and fill out a questionnaire to determine their name, age, location, and what type of food they would like to eat. This information will be visible to other users along with an uploaded profile picture.
